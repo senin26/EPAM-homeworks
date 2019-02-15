@@ -14,8 +14,4 @@ public class Solver {
         else throw new RuntimeException();
         return r;
     }
-
-    public float[] getR() {
-        return r;
-    }
 }
