@@ -1,7 +1,6 @@
 public class App {
 
     public static void main(String[] args) {
-
         String[] unsortedArray = {"sorting", "good", "fucking", "sorpink", "gooa", "A", "a", "goob"};
         System.out.println("Old unsorted array:\n");
         for (String s :
@@ -16,5 +15,4 @@ public class App {
             System.out.println(s);
         }
     }
-
 }
