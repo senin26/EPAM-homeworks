@@ -29,6 +29,12 @@ public class StringSorter {
                     res = 0;
                     this.compare(o1.substring(1), o2.substring(1));
                 }
+                else if ((o1.charAt(0) == o2.charAt(0)) && (!(o1.substring(1)).isEmpty()) && ((o2.substring(1)).isEmpty())) {
+                    res = 1;
+                }
+                else if ((o1.charAt(0) == o2.charAt(0)) && ((o1.substring(1)).isEmpty()) && (!(o2.substring(1)).isEmpty())) {
+                    res = -1;
+                }
                 return res;
             }
         });
