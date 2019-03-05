@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/StringSorting.iml" filepath="$PROJECT_DIR$/StringSorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListIntersection.iml" filepath="$PROJECT_DIR$/ListIntersection.iml" />
     </modules>
   </component>
 </project>
